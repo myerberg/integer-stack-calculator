@@ -40,6 +40,7 @@ public class StackCalculator {
 	//parameter to be manipulated before performing calculations
 	public void processInput(String stringImport) {
 		
+		//reset endAfterSet to false for each new stringImport
 		endAfterSet = false;
 
 		//prints imported String for user verification
